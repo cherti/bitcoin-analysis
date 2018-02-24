@@ -13,11 +13,11 @@ The repo is divided in three parts that should be quite self-explanatory:
   * visualisation
 
 
-# Dependencies
+## Dependencies
 
 This project is carried out using Antoine Le Calvez' [Blockchain Parser](https://github.com/alecalve/python-bitcoin-blockchain-parser) library.
 
 
-# Drawbacks
+## Drawbacks
 
 Most of these scripts are written with a lot of available memory in mind as they keep all the blockchain-data in memory during analysis, so they will likely run out of memory when run on your machine. In that case, rebasing the codes onto something like mongodb can likely solve the issue if you want to run the codes yourself.
